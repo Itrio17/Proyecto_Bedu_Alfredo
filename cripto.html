@@ -10,50 +10,126 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./images_cripto/bitcoin.png" alt="" width="30" height="24">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Criptomonedas</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Menú
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item" href="#">Trading</a></li>
-                            <li><a class="dropdown-item" href="#">Favoritos</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Calculadora</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <a class="d-flex" href="Login.html">
-                    <button class="boton_navbar btn btn-info" type="submit">Log in</button>
+    <main class="main">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images_cripto/bitcoin.png" alt="" width="30" height="24">
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Criptomonedas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menú
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">Trading</a></li>
+                                <li><a class="dropdown-item" href="#">Favoritos</a></li>
+                                <li><a class="dropdown-item" href="#">Calculadora</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="nav-link text-white" href="Login.html">
+                        Log In
+                    </a>
+                    <a class="nav-link" href="Registrate.html">
+                        <button class="boton_navbar btn btn-info" type="submit">Registrarse</button>
+                    </a>
+                </div>
             </div>
-        </div>
-    </nav>
-
-    <main class="main bg-dark">
-        <div class="has-bg-img">
-            <img class="bg-img" src="./images_cripto/3d-black-cube-4r-2560x1080.jpg" alt="primera_seccion">
-        </div>
+        </nav>
     </main>
 
-    <section>
-        <div class="dropdown">
+    <section class="top-page">
+        <div class="has-bg-img">
+            <img class="imagen-top bg-img" src="./images_cripto/3d-black-cube-4r-2560x1080.jpg" alt="primera_seccion">
+        </div>
+        <div class="text-page">
+            <h1>
+                <strong>Compra y administra tus criptomonedas</strong>
+            </h1>
+            <p>
+                Unete a la nueva generacón de hacer dinero
+            </p>
+        </div>
+    </section>
+
+    <section class="info-cryp">
+        <button type="button" class="btn btn-light">&#5176;</button>
+        <div class="cryp-body card border-light">
+            <img src="./images_cripto/bitcoin-icon.png" alt="Bitcoin" />
+            <div class="body-text">
+                <div class="cryp-title">
+                    <p>BTC / USDT</p>
+                </div>
+                <div class="cryp-data">
+                    <p>51017.40</p>
+                    <p>-11.05%</p>
+                </div>
+            </div>
+        </div>
+        <div class="cryp-body card border-light">
+            <img src="./images_cripto/Ethereum-icon.svg.png" alt="Ethereum" />
+            <div class="body-text">
+                <div class="cryp-title">
+                    <p>ETH / USDT</p>
+                </div>
+                <div class="cryp-data">
+                    <p>3,988.60</p>
+                    <p>-7.32%</p>
+                </div>
+            </div>
+        </div>
+        <div class="cryp-body card border-light">
+            <img src="./images_cripto/dogecoin-1.svg" alt="Dogecoin" />
+            <div class="body-text">
+                <div class="cryp-title">
+                    <p>DOGE / USDT</p>
+                </div>
+                <div class="cryp-data">
+                    <p>0.437337</p>
+                    <p>-12.23%</p>
+                </div>
+            </div>
+        </div>
+        <div class="cryp-body card border-light">
+            <img src="./images_cripto/XRP-icon.png" alt="XRP" />
+            <div class="body-text">
+                <div class="cryp-title">
+                    <p>XRP / USDT</p>
+                </div>
+                <div class="cryp-data">
+                    <p>1.3648</p>
+                    <p>-8.51%</p>
+                </div>
+            </div>
+        </div>
+        <div class="cryp-body card border-light">
+            <img src="./images_cripto/filecoin-icon.png" alt="Filecoin" />
+            <div class="body-text">
+                <div class="cryp-title">
+                    <p>FIL / USDT</p>
+                </div>
+                <div class="cryp-data">
+                    <p>121.56</p>
+                    <p>-14.41%</p>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-light">&#5171;</button>
+    </section>
+
+    <section class="trade-view">
+        <!--<div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                 Criptomoneda
             </button>
@@ -62,7 +138,7 @@
                 <li><button class="dropdown-item " type="button">Doge</button></li>
                 <li><button class="dropdown-item " type="button">Etherium</button></li>
             </ul>
-        </div>
+        </div>-->
 
         <figure class="figure">
             <img src="./images_cripto/trading_view.png" class="figure-img img-fluid rounded" alt="...">
@@ -75,7 +151,7 @@
             <div class="row row-cols-4">
                 <div class="col">
                     <div class="card border-light" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="./images_cripto/news-icon.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -83,7 +159,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-light" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="./images_cripto/services-icon-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -91,7 +167,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-light" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="./images_cripto/learning-icon.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -99,7 +175,7 @@
                 </div>
                 <div class="col">
                     <div class="card border-light" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="./images_cripto/message-icon-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>

@@ -4,3 +4,75 @@
     box-sizing: border-box;
 }
 
+.imagen-top{
+    width: 100%; /* width of container */
+    height: 450px; /* height of container */
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.top-page .text-page > h1 {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.top-page .text-page > p {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.info-cryp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20%;
+}
+
+.cryp-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px;
+}
+
+.info-cryp .cryp-body .body-text {
+    margin: 10px 5px;
+}
+
+.info-cryp .cryp-body .body-text .cryp-title > p{
+    margin-bottom: 5px;
+}
+
+.info-cryp .cryp-body .body-text .cryp-data > p{
+    margin-bottom: 5px;
+    margin: 0 10px;
+}
+
+.info-cryp .cryp-body > img {
+    padding: 10px;
+    height: 100px;
+}
+
+.info-cryp .cryp-body .body-text .cryp-title {
+    margin: 0 20%;
+}
+
+.info-cryp .cryp-body .body-text .cryp-data{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+}
+
+.trade-view {
+    margin: 10% 10%;
+    background-color: #ffffff;
+    padding: 5% 10%;
+}
