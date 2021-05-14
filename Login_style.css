@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+}
+
+.formulario .card {
+    align-items: center;
+    background-color: aliceblue;
+    height: 420px;
+    width: 480px;
+}
+
+.formulario .registro .cuerpo {
+    margin-top: 11%;
+}
+
+.formulario .registro .cuerpo .titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario .registro .cuerpo .datos .usuario {
+    margin-bottom: 30px;
+}
+
+.formulario .registro .cuerpo .datos .usuario > h5{
+    margin-bottom: 0;
+}
+
+.formulario .registro .cuerpo .datos .usuario > p{
+    font-size: small;
+    color: gray;
+}
+
+.formulario .registro .cuerpo .datos .contraseña {
+    margin-bottom: 5px;
+}
+
+.formulario .registro .cuerpo .datos .contraseña > h5{
+    margin-bottom: 0;
+}
+
+.formulario .registro .cuerpo .datos .contraseña > p{
+    font-size: small;
+    color: gray;
+}
+
+.formulario .registro .cuerpo .datos .button-sesion > button {
+    margin: 0px 22%;
+    width: -webkit-fill-available;
+    height: 35px;
+    background-color: #0dcaf0;
+    color: black;
+    font-size: larger;
+    border-radius: .25rem;
+}
+
+.formulario .registro .cuerpo .datos .extra {
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+    font-size: 15px;
+}
+
+.formulario .registro .cuerpo .datos .extra > p{
+    margin-right: 15px;
+}

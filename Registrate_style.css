@@ -4,7 +4,43 @@
     box-sizing: border-box;
 }
 
-.formulario {
-    background-color: black
+.formulario .registro {
+    align-items: center;
+    background-color: aliceblue;
+    height: 700px;
+    width: 700px;
 }
 
+.formulario .registro .cuerpo {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.formulario .registro .cuerpo .titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulario .registro .cuerpo .titulo > h5{
+    color: gray;
+}
+
+.formulario .registro .cuerpo .datos div > h6{
+    margin-bottom: 0px;
+}
+
+.formulario .registro .cuerpo .datos div > p{
+    font-size: small;
+    color: gray;
+}
+
+
+button {
+    margin: 10px 22%;
+    width: -webkit-fill-available;
+    height: 35px;
+    background-color: #0dcaf0;
+    color: black;
+    font-size: larger;
+    border-radius: .25rem;
+}

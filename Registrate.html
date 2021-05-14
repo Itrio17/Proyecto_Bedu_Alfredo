@@ -11,7 +11,7 @@
 
 <body>
     <main>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./images_cripto/bitcoin.png" alt="" width="30" height="24">
@@ -25,39 +25,36 @@
                             <a class="nav-link active" aria-current="page" href="cripto.html">Inicio</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <button class="boton_navbar btn btn-info" type="submit">Log In</button>
-                    </form>
                 </div>
             </div>
         </nav>
     </main>
 
     <section class="formulario">
-        <div class="registro-uno card border-light position-absolute top-50 start-50 translate-middle" style="width: 25rem">
-            <div clas="cuerpo-registro">
-                <div clas="informacion-registro">
+        <div class="registro card border-light position-absolute top-50 start-50 translate-middle">
+            <div class="cuerpo">
+                <div class="titulo">
                     <h3>Crea gratuitamente tu cuenta</h3>
-                    <h6>Bienvenido a Managecript</h6>
+                    <h5>Bienvenido a Managecript</h5>
                 </div>
-                <form>
+                <form class="datos">
                     <div>
-                        <p>Nombre de Usuario</p>
-                        <input>
-                        <p>Ingrese el nombre de usuario</p>
+                        <h6>Nombre de Usuario</h6>
+                        <input type="text">
+                        <p>Ingrese nombre de usuario</p>
                     </div>
                     <div>
-                        <p>Email</p>
-                        <input>
+                        <h6>Email</h6>
+                        <input type="email">
                         <p>Ingrese su correo electronico</p>
                     </div>
                     <div>
-                        <p>Contraseña</p>
+                        <h6>Contraseña</h6>
                         <input type="password">
                         <p>Ingrese su contraseña</p>
                     </div>
                     <div>
-                        <p>Confirme su contraseña</p>
+                        <h6>Confirma tu contraseña</h6>
                         <input type="password">
                     </div>
                     <br>
@@ -65,8 +62,10 @@
                         <p>
                             <label>
                                 <input type="checkbox" value="">
-                                    Estoy de acuerdo con los terminos y condiciones del servicio
+                                    Estoy de acuerdo con los terminos y condiciones del servicio.
                             </label>
+                            <br>
+                            <a href="#">Terminos y Condiciones.</a>
                         </p>
                     </div>
                     <button>
@@ -74,7 +73,11 @@
                     </button>
                 </form>
                 <div>
-                    <p>Ya esta registado?<a href="Login.html">Log In</a></p>
+                    <p>
+                        Ya esta registado?
+                        <br>
+                        <a href="Login.html">Log In</a>
+                    </p>
                 </div>
             </div>
         </div>
