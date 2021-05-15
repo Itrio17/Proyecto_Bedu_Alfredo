@@ -145,21 +145,17 @@
 
 @media (max-width: 425px) {
 
-    .actions {
-        width: auto;
-    }
-
     .main {
         font-size: small;
-        width: 568px;
+        width: 425px;
     }
 
     .main .navbar {
-        width: 568px;
+        width: 425px;
     }
 
     .imagen-top{
-        width: 568px; /* width of container */
+        width: 425px; /* width of container */
         height: 240px; /* height of container */
         object-fit: cover;
         border: 1px solid black;
@@ -168,20 +164,20 @@
     .top-page .text-page > h1 {
         position: absolute;
         top: 9%;
-        left: 15%;
+        left: 0%;
         transform: translate(6%, -50%);
         color: #ffffff;
-        font-size: 26px;
+        font-size: 20px;
         text-align: center;
     }
 
     .top-page .text-page > p {
         position: absolute;
-        top: 14%;
-        left: 16%;
+        top: 12%;
+        left: 4%;
         transform: translate(7%, -100%);
         color: #ffffff;
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .info-cryp {
@@ -190,8 +186,9 @@
 
     .info-cryp-2{
         display: block;
-        margin-left: 128px;
-        margin-right: -23px;
+        margin-left: 31px;
+        margin-right: 25px;
+        padding: 1% 5%;
     }
 
     .cryp-body-2 {
@@ -230,15 +227,11 @@
     }
 
     .trade-view {
-        margin: 6% -12%;
+        margin: 6% 1%;
         background-color: #ffffff;
         padding: 1% 1%;
-        margin-left: 13%;
     }
 
-    .trade-view .figure {
-        margin-left: 25px;
-    }
 
     .trade-view .figure .figure-caption {
         text-align: center;
@@ -248,8 +241,8 @@
 
     .options-section{
         margin-top: -43px;
-        margin-bottom: 60px;
-        margin-left: 10%;
+        margin-bottom: 10px;
+        margin-left: -22px;
     }
 
     .options-section .options-content .options-cards {
@@ -275,10 +268,10 @@
     }
 
     .foot{
-        height: 250px; /* height of container */
+        height: 165px; /* height of container */
         border: 1px solid black;
         background-color: black;
-        width: max-content;
+        width: 425px;
     }
 
     .foot .foot-page {
@@ -294,7 +287,11 @@
     }
 
     .foot .foot-page .row .col > p {
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    .foot .foot-page .row .col > ul {
+        font-size: 10px;
     }
 
     .foot .foot-page .row .redes {
