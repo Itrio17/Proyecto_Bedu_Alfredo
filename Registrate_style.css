@@ -44,3 +44,18 @@ button {
     font-size: larger;
     border-radius: .25rem;
 }
+
+@media (max-width: 425px) {
+
+    .main .navbar {
+        width: 425px;
+        flex-wrap: unset;
+    }
+
+    .formulario {
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -22%);
+        }
+}

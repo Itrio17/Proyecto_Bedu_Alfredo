@@ -76,7 +76,9 @@
 }
 
 .trade-view {
-    margin: 4% 10%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 15%;
     background-color: #ffffff;
     padding: 1% 10% 1%;
 }
@@ -88,8 +90,12 @@
 }
 
 .options-section{
-    margin-top: -90px;
-    margin-bottom: 60px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.options-section .options-content {
+    margin-left: 26%;
 }
 
 .options-section .options-content .options-cards {
@@ -97,16 +103,28 @@
 }
 
 .options-section .options-content .options-cards .option-column .card > img {
-    padding: 30%;
+    width: 187px;
+    height: 120px;
+    margin-bottom: 50px;
 }
 
 .options-section .options-content .options-cards .option-column .card .card-body{
     text-align: center;
-    margin-top: -70px;
+    margin-top: -30px;
+    text-align: justify;
+    padding: 5% 5%;
+    font-size: small;
+}
+
+.options-section .options-content .options-cards .option-column .card {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 20px 2px black;
+    height: 15rem;
 }
 
 .foot{
-    height: 350px; /* height of container */
+    height: 270px; /* height of container */
     border: 1px solid black;
     background-color: black;
 }
@@ -127,12 +145,11 @@
     font-size: 25px;
 }
 
-.foot .foot-page .row .redes > img {
-    width: 157px;
-    height: 55px;
-    object-fit: cover;
-    object-position: 20% 10%;
-    border: 5px solid black;
+.foot .foot-page .row .col > img {
+    background: #ffffff;
+    border-radius: 50%;
+    border-color: black;
+    margin-right: 20px;
 }
 
 
@@ -296,6 +313,11 @@
 
     .foot .foot-page .row .redes {
         display: none;
+    }
+
+    .foot .foot-page .row .col > img{
+        background: #ffffff;
+        border-radius: 50%;
     }
 
     .foot .foot-text > p {
